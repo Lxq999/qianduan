@@ -14,7 +14,7 @@ module.exports = {
     devServer: {
         proxy: {
             '/api': {
-                target: 'http://www.codeman.ink/',
+                target: 'http://www.codeman.ink/api',
                 changeOrigin: true,
                 ws: true,
                 pathRewrite: {
